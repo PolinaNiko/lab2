@@ -26,7 +26,7 @@ def input_number(prompt):
         if is_number(user_input):
             return int(user_input)
         else:
-            print("Введите число.")
+            print("Введите число. ")
 
 n = input_natural_number("Введите размерность квадратной матрицы: ")
 
